@@ -1,818 +1,681 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-16"?>
 <rss version="2.0">
-<channel>
-<title>GuestOS Updates RSS Feed</title>
-<link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-<description>Azure Guest OS releases</description>
-
-  <item>
-    <title>June 2017 Guest OS Release</title>
+  <channel>
+    <title>GuestOS Updates RSS Feed</title>
     <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-    <description>The June Guest OS has released</description>
-    <pubDate>Fri, 07 Jul 2017 15:00:00 GMT</pubDate>
-  </item>
-  
-  <item>
-    <title>July 2017 Guest OS Rollout</title>
-    <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-    <description>The July Guest OS rollout is starting July 18, 2017 and has a projected release of August 8, 2017 </description>
-    <pubDate>Wed, 19 Jul 2017 15:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>July 2017 Guest OS Release</title>
-    <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-    <description>The July Guest OS has released </description>
-    <pubDate>Thu, 03 Aug 2017 15:00:00 GMT</pubDate>
-  </item>
-  
-  <item>
-    <title>August 2017 Guest OS Release</title>
-    <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-    <description>The August Guest OS has released </description>
-    <pubDate>Thu, 24 Aug 2017 15:00:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>September 2017 Guest OS Rollout</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS rollout has started on September 12, 2017 and has a projected release by October 3, 2017         
-   </description>
-   <pubDate>Mon, 18 Sep 2017 15:00:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>September 2017 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>September Guest OS has released. For the Windows Server 2016 September release, netfx3 is enabled by default. Customers should add ‘dism /online /disable-feature /featurename:netfx3’ in their OnStart if their workflow requires them to run a .NET 2.x app with a 4.x runtime or if they ran a .NET 2.x app, handled an error, and then ran a .NET 4.x app. </description>
-   <pubDate>Fri, 06 Oct 2017 23:00:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>October 2017 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Wed, 08 Nov 2017 09:55:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>November 2017 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Fri, 15 Dec 2017 13:20:00 GMT</pubDate>
-  </item>
-  
-   <item>    
-   <title>December 2017 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Thu, 04 Jan 2018 19:00:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>January 2018 Guest OS Release for OS Families 4 and 5</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has been released for OS Families 4 (WA-GUEST-OS-4.50_201801-01) and 5 (WA-GUEST-OS-5.15_201801-01) and contains important security patches. </description>
-   <pubDate>Thu, 04 Jan 2018 23:00:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>January 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Mon, 29 Jan 2018 10:26:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>February 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS except 2012 Server OSfamily has been released. Server 2012 OS will be released soon as well. </description>
-   <pubDate>Mon, 19 Mar 2018 07:10:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>February 2018 Guest OS Family 3 Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS 2012 Server OS Family has been released. </description>
-   <pubDate>Mon, 19 Mar 2018 07:10:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>March 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Fri, 06 Apr 2018 08:21:00 GMT</pubDate>
-  </item>
- 
-  <item>    
-   <title>April 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Fri, 04 May 2018 08:21:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>May 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Fri, 01 Jun 2018 21:30:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>June 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Tue, 03 Jul 2018 21:30:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>July 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Fri, 03 Aug 2018 21:30:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>August 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Wed, 12 Sep 2018 15:37:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>September 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Fri, 12 Oct 2018 20:53:00 GMT</pubDate>
-  </item>
-  
-  <item>    
-   <title>October 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Fri, 09 Nov 2018 10:49:00 PST</pubDate>
-  </item>
-  
-  <item>    
-   <title>November 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Fri, 14 Dec 2018 20:00:00 PST</pubDate>
-  </item>
-  
-  <item>    
-   <title>December 2018 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Mon, 07 Jan 2019 14:00:00 PST</pubDate>
-  </item>
-  
-  <item>    
-   <title>Family 6 Guest OS (Windows Server 2019) Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>Family 6 Guest OS (Windows Server 2019) has released</description>
-   <pubDate>Thu, 24 Jan 2019 18:00:00 PST</pubDate>
-  </item>
-  
-  <item>    
-   <title>January 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Tue, 05 Feb 2019 12:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-   <title>February 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Tue, 12 Mar 2019 09:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-   <title>March 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Tue, 26 Mar 2019 14:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-   <title>April 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Tue, 7 May 2019 14:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-   <title>May 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Thu, 6 Jun 2019 14:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-  <title>June 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Mon, 8 Jul 2019 14:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-  <title>July 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Fri, 26 Jul 2019 14:00:00 PST</pubDate>
-  </item>
-
-  <item>
-  <title>August 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Wed, 4 Sept 2019 14:00:00 PST</pubDate>
-  </item>
-
-  <item>
-  <title>September 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Mon, 7 Oct 2019 14:00:00 PST</pubDate>
-  </item>
-
-  <item>
-  <title>October 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Fri, 1 Nov 2019 09:30:00 PST</pubDate>
-  </item>
-
-  <item>
-  <title>November 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Thu, 5 Dec 2019 14:30:00 PST</pubDate>
-  </item>
-
-  <item>
-  <title>December 2019 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Wed, 8 Jan 2020 14:30:00 PST</pubDate>
-  </item>
-
-  <item>
-  <title>January 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Fri, 24 Jan 2020 15:00:00 PST</pubDate>
-  </item>
-  
-  <item>
-  <title>February 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Thu, 5 March 2020 15:00:00 PST (23:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>March 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Thu, 2 April 2020 11:30:00 PST (18:30:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>April 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Mon, 4 May 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>May 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Tue, 2 June 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>June 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Mon, 10 August 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>July 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Mon, 17 August 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>August 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Mon, 07 September 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>September 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Mon, 12 October 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>October 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Tue, 17 November 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>November 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Sat, 19 December 2020 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>December 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Thu, 14 January 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>January 2020 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Fri, 5 February 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>February 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Fri, 19 February 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>March 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Sun, 28 March 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>April 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Fri, 30 April 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>May 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Wed, 26 May 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-  <title>June 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Thursday, 1 July 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  
-   <item>
-  <title>July 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Friday, 13 August 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>August 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Friday, 27 August 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>September 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Friday, 8 October 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>October 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Monday, 1 November 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>November 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Thursday, 11 November 2021 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>December 2021 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Tuesday, 11 January 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  
-  <item>
-  <title>January 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Friday, 11 February 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-  <title>February 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Wednesday, 3 March 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  
-   <item>
-  <title>March 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Wednesday, 19 March 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>April 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Saturday, 30 April 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>May 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Thursday, 26 May 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>June 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Monday, 11 July 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>July 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Monday, 3 August 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>August 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Friday, 2 September 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>September 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Thrusday, 29 September 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>October 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Friday, 4 November 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>November 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Monday, 12 December 2022 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>December 2022 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Thursday, 19 January 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-  <title>January 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Tuesday, 31 January 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-  <title>February 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Wednesday, 1 March 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-  <title>March 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Tuesday, 28 March 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  
-   <item>
-  <title>April 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Thursday, 27 April 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-  <title>May 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Friday, 19 May 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>June 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Saturday, 8 July 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>July 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Thursday, 27 July 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>August 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Monday, 21 August 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>September 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Monday, 25 September 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>October 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Monday, 23 October 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>November 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Friday, 8 December 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>December 2023 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Tuesday, 16 January 2023 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>January 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Monday, 22 January 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>February 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Saturday, 24 February 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>March 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Tuesday, 9 April 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>  
-
-  <item>
-  <title>April 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Friday, 19 April 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>May 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Saturday, 1 Jun 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>June 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Thursday, 27 Jun 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-  <title>July 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Wednesday, 31 Jul 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>Aug 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Wednesday, 27 Aug 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-   <title>Sep 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Tuesday, 24 September 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-   <title>Oct 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Tuesday, 10 December 2024 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-   <title>Nov 2024 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Friday, 17 January 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-   <title>Jan 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Wednesday, 5 February 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-  <item>
-   <title>Feb 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Wednesday, 26 February 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>  
-  
-  <item>
-   <title>Mar 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Friday, 28 March 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>Apr 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Thursday, 1 May 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>May 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Wednesday, 4 June 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>June 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Sunday, 6 July 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>July 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Wednesday, 30 July 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>August 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Saturday, 6 September 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>September 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The September Guest OS has released </description>
-   <pubDate>Monday, 6 October 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>October 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The October Guest OS has released </description>
-   <pubDate>Thursday, 6 November 2025 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>November 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The November Guest OS has released </description>
-   <pubDate>Wednesday, 14 January 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>December 2025 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The December Guest OS has released </description>
-   <pubDate>Monday, 2 February 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-   <item>
-   <title>January 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The January Guest OS has released </description>
-   <pubDate>Thursday, 26 February 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>February 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The February Guest OS has released </description>
-   <pubDate>Tuesday, 14 April 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>March 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The March Guest OS has released </description>
-   <pubDate>Tuesday, 14 April 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>April 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The April Guest OS has released </description>
-   <pubDate>Tuesday, 22 May 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-  <item>
-   <title>May 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The May Guest OS has released </description>
-   <pubDate>Tuesday, 16 June 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-
-   <item>
-   <title>June 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The June Guest OS has released </description>
-   <pubDate>Tuesday, 29 June 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-   <title>July 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The July Guest OS has released </description>
-   <pubDate>Friday, 14 August 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-  
-   <item>
-   <title>August 2026 Guest OS Release</title>
-   <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
-   <description>The August Guest OS has released </description>
-   <pubDate>Wednesday, 16 September 2026 10:00:00 PST (17:00:00 UST)</pubDate>
-  </item>
-</channel>
+    <description>Azure Guest OS releases</description>
+    <item>
+      <title>June 2017 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released</description>
+      <pubDate>Fri, 07 Jul 2017 15:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>July 2017 Guest OS Rollout</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS rollout is starting July 18, 2017 and has a projected release of August 8, 2017 </description>
+      <pubDate>Wed, 19 Jul 2017 15:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>July 2017 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Thu, 03 Aug 2017 15:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>August 2017 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Thu, 24 Aug 2017 15:00:00 GMT</pubDate>
+    </item>
+    <item>    
+   <title>September 2017 Guest OS Rollout</title><link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link><description>The September Guest OS rollout has started on September 12, 2017 and has a projected release by October 3, 2017         
+   </description><pubDate>Mon, 18 Sep 2017 15:00:00 GMT</pubDate></item>
+    <item>    
+   <title>September 2017 Guest OS Release</title><link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link><description>September Guest OS has released. For the Windows Server 2016 September release, netfx3 is enabled by default. Customers should add ‘dism /online /disable-feature /featurename:netfx3’ in their OnStart if their workflow requires them to run a .NET 2.x app with a 4.x runtime or if they ran a .NET 2.x app, handled an error, and then ran a .NET 4.x app. </description><pubDate>Fri, 06 Oct 2017 23:00:00 GMT</pubDate></item>
+    <item>    
+   <title>October 2017 Guest OS Release</title><link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link><description>The October Guest OS has released </description><pubDate>Wed, 08 Nov 2017 09:55:00 GMT</pubDate></item>
+    <item>    
+   <title>November 2017 Guest OS Release</title><link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link><description>The November Guest OS has released </description><pubDate>Fri, 15 Dec 2017 13:20:00 GMT</pubDate></item>
+    <item>    
+   <title>December 2017 Guest OS Release</title><link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link><description>The December Guest OS has released </description><pubDate>Thu, 04 Jan 2018 19:00:00 GMT</pubDate></item>
+    <item>    
+   <title>January 2018 Guest OS Release for OS Families 4 and 5</title><link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link><description>The January Guest OS has been released for OS Families 4 (WA-GUEST-OS-4.50_201801-01) and 5 (WA-GUEST-OS-5.15_201801-01) and contains important security patches. </description><pubDate>Thu, 04 Jan 2018 23:00:00 GMT</pubDate></item>
+    <item>
+      <title>January 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Mon, 29 Jan 2018 10:26:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>February 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS except 2012 Server OSfamily has been released. Server 2012 OS will be released soon as well. </description>
+      <pubDate>Mon, 19 Mar 2018 07:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>February 2018 Guest OS Family 3 Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS 2012 Server OS Family has been released. </description>
+      <pubDate>Mon, 19 Mar 2018 07:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>March 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Fri, 06 Apr 2018 08:21:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>April 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Fri, 04 May 2018 08:21:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>May 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Fri, 01 Jun 2018 21:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>June 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Tue, 03 Jul 2018 21:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>July 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Fri, 03 Aug 2018 21:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>August 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Wed, 12 Sep 2018 15:37:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>September 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Fri, 12 Oct 2018 20:53:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>October 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Fri, 09 Nov 2018 10:49:00 PST</pubDate>
+    </item>
+    <item>
+      <title>November 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Fri, 14 Dec 2018 20:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>December 2018 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Mon, 07 Jan 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>Family 6 Guest OS (Windows Server 2019) Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>Family 6 Guest OS (Windows Server 2019) has released</description>
+      <pubDate>Thu, 24 Jan 2019 18:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>January 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Tue, 05 Feb 2019 12:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>February 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Tue, 12 Mar 2019 09:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>March 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Tue, 26 Mar 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>April 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Tue, 7 May 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>May 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Thu, 6 Jun 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>June 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Mon, 8 Jul 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>July 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Fri, 26 Jul 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>August 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Wed, 4 Sept 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>September 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Mon, 7 Oct 2019 14:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>October 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Fri, 1 Nov 2019 09:30:00 PST</pubDate>
+    </item>
+    <item>
+      <title>November 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Thu, 5 Dec 2019 14:30:00 PST</pubDate>
+    </item>
+    <item>
+      <title>December 2019 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Wed, 8 Jan 2020 14:30:00 PST</pubDate>
+    </item>
+    <item>
+      <title>January 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Fri, 24 Jan 2020 15:00:00 PST</pubDate>
+    </item>
+    <item>
+      <title>February 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Thu, 5 March 2020 15:00:00 PST (23:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>March 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Thu, 2 April 2020 11:30:00 PST (18:30:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>April 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Mon, 4 May 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Tue, 2 June 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Mon, 10 August 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Mon, 17 August 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>August 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Mon, 07 September 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>September 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Mon, 12 October 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>October 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Tue, 17 November 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>November 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Sat, 19 December 2020 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>December 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Thu, 14 January 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>January 2020 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Fri, 5 February 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>February 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Fri, 19 February 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>March 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Sun, 28 March 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>April 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Fri, 30 April 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Wed, 26 May 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Thursday, 1 July 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Friday, 13 August 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>August 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Friday, 27 August 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>September 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Friday, 8 October 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>October 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Monday, 1 November 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>November 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Thursday, 11 November 2021 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>December 2021 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Tuesday, 11 January 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>January 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Friday, 11 February 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>February 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Wednesday, 3 March 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>March 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Wednesday, 19 March 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>April 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Saturday, 30 April 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Thursday, 26 May 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Monday, 11 July 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Monday, 3 August 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>August 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Friday, 2 September 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>September 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Thrusday, 29 September 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>October 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Friday, 4 November 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>November 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Monday, 12 December 2022 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>December 2022 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Thursday, 19 January 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>January 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Tuesday, 31 January 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>February 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Wednesday, 1 March 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>March 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Tuesday, 28 March 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>April 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Thursday, 27 April 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Friday, 19 May 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Saturday, 8 July 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Thursday, 27 July 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>August 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Monday, 21 August 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>September 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Monday, 25 September 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>October 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Monday, 23 October 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>November 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Friday, 8 December 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>December 2023 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Tuesday, 16 January 2023 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>January 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Monday, 22 January 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>February 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Saturday, 24 February 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>March 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Tuesday, 9 April 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>April 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Friday, 19 April 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Saturday, 1 Jun 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Thursday, 27 Jun 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Wednesday, 31 Jul 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Aug 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Wednesday, 27 Aug 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Sep 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Tuesday, 24 September 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Oct 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Tuesday, 10 December 2024 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Nov 2024 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Friday, 17 January 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Jan 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Wednesday, 5 February 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Feb 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Wednesday, 26 February 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Mar 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Friday, 28 March 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>Apr 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Thursday, 1 May 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Wednesday, 4 June 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Sunday, 6 July 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Wednesday, 30 July 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>August 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Saturday, 6 September 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>September 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released </description>
+      <pubDate>Monday, 6 October 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>October 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The October Guest OS has released </description>
+      <pubDate>Thursday, 6 November 2025 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>November 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The November Guest OS has released </description>
+      <pubDate>Wednesday, 14 January 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>December 2025 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The December Guest OS has released </description>
+      <pubDate>Monday, 2 February 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>January 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The January Guest OS has released </description>
+      <pubDate>Thursday, 26 February 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>February 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The February Guest OS has released </description>
+      <pubDate>Tuesday, 14 April 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>March 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The March Guest OS has released </description>
+      <pubDate>Tuesday, 14 April 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>April 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The April Guest OS has released </description>
+      <pubDate>Tuesday, 22 May 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>May 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The May Guest OS has released </description>
+      <pubDate>Tuesday, 16 June 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>June 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The June Guest OS has released </description>
+      <pubDate>Tuesday, 29 June 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>July 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The July Guest OS has released </description>
+      <pubDate>Friday, 14 August 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>August 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The August Guest OS has released </description>
+      <pubDate>Wednesday, 16 September 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+    <item>
+      <title>September 2026 Guest OS Release</title>
+      <link>https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix</link>
+      <description>The September Guest OS has released</description>
+      <pubDate>Wednesday, 14 October 2026 10:00:00 PST (17:00:00 UST)</pubDate>
+    </item>
+  </channel>
 </rss>
